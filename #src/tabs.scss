@@ -1,0 +1,120 @@
+.tabs_wrapper{
+        overflow: hidden;
+        width: 1660px;
+        height: 1000px;
+        margin-top: 170px;
+        position: relative;
+      }
+        
+        
+
+.tab{
+    transition: all 0.6;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 40px;
+    overflow: hidden; 
+}
+
+
+#about{
+    
+    background: #212529;  
+    
+}
+#skills{
+    
+    background: #356AF3;
+}
+#experience{
+    background: #7E93A8;
+}
+#education{
+    background: #495057;
+}
+.item_1{
+  padding-top: 80px;
+  width: 65%;
+  height: 500px;
+  transition:all 0.5s;
+  h3{
+      margin-top: 60px;
+  }
+
+}
+.bg_elipse_about{
+pointer-events: none;
+width: 484px;
+height:216px;
+position: absolute;
+right: 0px;
+top: 0px;
+
+background:url(../img/elipse.svg)
+}
+
+.bg_elipse_skills{
+    pointer-events: none;
+    width: 387px;
+    height: 316px;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    
+    
+    background:url(../img/elipse-2.svg) 
+}
+
+.item_2{
+    width: 30%;
+    height: 500px;
+    padding-top: 80px;
+    transition: all 0.5s;
+    h3{
+        z-index: 1000;
+
+    }
+
+    
+}
+
+.item_3, .item_4{
+    padding-top: 40px;
+    width: 30%;
+    height: 300px;
+}
+
+.item_3{
+    
+}
+
+.btn__open{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background: url(../img/btn-open.svg) center no-repeat;
+    height: 48px;
+    width: 48px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius:50%;
+}
+
+.about_skills {
+    width: 30%;
+}
+
+
+  
+// @keyframes skills_skills {
+//   0% {
+//     opacity: 0.000000;
+//     transform: translateX(-2500px);
+//   }
+//   100%{
+//     opacity: 1;
+//     transform: translateX(100px);
+//   }
+// }

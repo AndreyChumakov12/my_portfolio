@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@import "reset.scss";
+
+  
+  /*---------------------*/
+
+// -- colors --
+$bodyColor: #E5E5E5;
+
+// -- colors --
+
+
+
+// imports
+
+
+// -- templates --
+body{
+  font-family: 'Open Sans';
+  background-color: $bodyColor ;
+}
+h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000
+}
+h2{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+h3{
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 220%;
+  color: #E7E7E7;
+}
+.container{
+    z-index: 500;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+// -- templates --
+
+
+//  -- header -- 
+
+._header{
+  margin-top: 50px;
+}
+.row {
+    position: relative;
+    width: 100%;
+    height:55px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    .row_left{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height:auto;
+      .logo{
+        position: relative;
+        h2:first-child{
+          font-style: normal;
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 22px;
+          text-transform: uppercase;
+          background-image: linear-gradient(90deg, rgba(204, 83, 51, 1), rgba(35, 7, 77, 1));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        h2:last-child{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 18px;
+          letter-spacing: 0.63em;
+          text-transform: uppercase;
+          color: #000000;
+        }
+      }
+    }
+    .row_right{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+}
+//  -- header --
+
+
+
+
+@import "slider.scss";
+@import "tabs.scss";
+// imports
+
+
+
+
+// -- _home section --
+
+// btn slider
+  .wrapper_btn_left{
+    padding: 50px;
+    position:absolute;
+    height:30%;
+    width: 40%;
+    top: 40%;
+    left: 0px;
+      .slider_btn_left{
+        display: block;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  .wrapper_btn_right{
+    padding: 50px;
+    position:absolute;
+    height:30%;
+    width: 40%;
+    top: 40%;
+    right: 0px;
+      .slider_btn_right{
+        display: block;
+        z-index: 1000;
+        height:100%;
+        width: 100%;
+      
+      }
+    }  
+// btn slider
+
+
+.greeting_wrapper{
+    pointer-events: none;
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+// .gradient_text{
+//   background-image: linear-gradient(90deg, #CC5333, #23074D 40%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+
+// -- about_me__section --
+
+
+
+// -- my_skills__section --]
+
+
+// javasctipt_tab
+
+   
+
+.contacts_wrapper{
+  margin-top: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  h1{
+    font-style: normal;
+    font-weight: 300;
+  }
+}
+.contacts_inner{
+  margin-top: 81px;
+  display: flex;
+  align-items:center;
+  .contact_box{
+    height: 234px;
+    width: 234px;
+    border-radius: 36px;
+    display:inline-flex;
+    vertical-align:top;
+    justify-content:center;
+    align-items:center;
+    img{
+     z-index: 1000;
+    }
+  }
+  .contact_box:not(:first-child){
+    margin-left: 40px;
+  }
+
+}
+
+
+._footer{
+  margin-top: 285px;
+  padding-bottom: 100px;
+}
+
+//   javasctipt_tab
+
+
+
+
+
+
+// footer
+//   skill_tab_tools
+  
+
+// -- my_skills__section --
+
+
+
+// -- education__section --
+
+// -- education__section --
+
